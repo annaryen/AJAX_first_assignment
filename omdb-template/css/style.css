@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style text */
+h1 {
+  font-size: 36pt;
+  text-align: center;
+  color: #4e4e4e;
+  padding-top: 20px;
+}
+h3 {
+  font-size: 28pt;
+  color: #378ed5;
+}
+h4 {
+  font-size: 15pt;
+}
+p {
+  font-size: 12pt;
+}
+
+/* Style search-form */
+form {
+  padding: 50px 20px;
+  margin: auto;
+  width: 75%;
+}
+
+/* Style search field */
+form.search-form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style submit button */
+form.search-form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+/* Style search-content */
+#content-div {
+  width: 75%;
+  margin: auto;
+  color: #4e4e4e;
+}
+
+/* Style movie objects */
+.movie-div {
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 100%;
+  height: 500px;
+  border-bottom: 1px solid rgb(220, 218, 218);
+}
+
+/* Style movie posters */
+img {
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+
